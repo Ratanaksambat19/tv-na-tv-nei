@@ -1,5 +1,4 @@
 import '../styles/componentsStyle/displayPanel.css'
-import oldtv from '../assets/oldtv.png'
 
 const Panel = ({ image }) => {
     return (
