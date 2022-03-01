@@ -20,7 +20,7 @@ function App() {
       getRandomCat()
       setIsLoadedCat(false)
     }
-  }, [loadedCat])
+  }, [loadedCat]) // eslint-disable-line
 
   const getRandomCat = async () => {
     let catContainer = []
